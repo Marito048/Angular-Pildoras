@@ -10,6 +10,7 @@ import { EmpleadoComponent } from './empleado/empleado.component';
     AppComponent,
     empleadosComponent,
     EmpleadoComponent
+    
   ],
   imports: [
     BrowserModule
