@@ -11,6 +11,8 @@ export class EmpleadoComponent implements OnInit {
   nombre= "Juan";
   apellido= "Diaz";
   edad= 18;
+  habilitacionCuadro=false;
+  usuRegistrado=true;
   
   //empresa= "Pildoras Informaticas"
  
