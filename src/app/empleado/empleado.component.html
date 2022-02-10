@@ -6,7 +6,9 @@ Introduce la Empresa: <input type="text" #empresa (keyup)="0" [disabled]="habili
 <br/>
 <br/>
 <!--<input type="button" value="dale" (click)="llamaEmpresa(empresa.value)"/>-->
-Registrado: <input type="checkbox" id="registro" [checked]="usuRegistrado"/>
+{{textoDeRegistro}}
+<br/>
+Registrado: <input type="checkbox" id="registro" [checked]="usuRegistrado" (click)="setUsuarioRegistrado()"/>
 
 
 
